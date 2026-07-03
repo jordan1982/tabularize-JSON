@@ -1,7 +1,6 @@
 import { useState, useMemo } from 'react';
 import { 
   type JsonRow, 
-  type DatasetStats, 
   flattenObject, 
   analyzeDataset 
 } from './types'; // IMPORT RIGOROSO DI TIPO E FUNZIONE SEPARATI PER VERBATIMMODULESYNTAX
